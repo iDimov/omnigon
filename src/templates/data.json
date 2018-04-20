@@ -1,0 +1,96 @@
+{
+  "title": "Omnigon",
+  "sidebar": {
+    "draft": {
+      "imgUrl": "/img/icons/1.png",
+      "text": "Choose best Wimbledon player and win tickets to the finals"
+    },
+    "active": [{
+        "imgUrl": "/img/icons/2.png",
+        "text": "Unleash a Jaguar"
+      },
+      {
+        "imgUrl": "/img/icons/3.png",
+        "text": "Choose best Wimbledon player and win tickets to the finals"
+      },
+      {
+        "imgUrl": "/img/icons/4.png",
+        "text": "2015 Music Moments"
+      }
+    ],
+    "close": [{
+        "imgUrl": "/img/icons/5.png",
+        "text": "All time greats"
+      },
+      {
+        "imgUrl": "/img/icons/6.png",
+        "text": "Insane Dunks"
+      },
+      {
+        "imgUrl": "/img/icons/7.png",
+        "text": "2014 Music Moments"
+      }
+    ]
+  },
+  "tabs": {
+    "Detail": {},
+    "Content": {
+      "active": "active",
+      "controls": "Present in random order",
+      "embed": "Embed at least 2 players*",
+      "players": [{
+          "imgUrl": "/img/derozan.jpg",
+          "name": "DeMar DeRozan"
+        },
+        {
+          "imgUrl": "/img/curry.jpg",
+          "name": "Stephen Curry"
+        },
+        {
+          "imgUrl": "/img/durant.jpg",
+          "name": "Kevin Durant"
+        },
+        {
+          "imgUrl": "/img/harden.jpg",
+          "name": "James Harden"
+        },
+        {
+          "imgUrl": "/img/jordan.jpg",
+          "name": "DeAndre Jordan"
+        },
+        {
+          "imgUrl": "/img/westbrook.jpg",
+          "name": "Russell Westbrook"
+        },
+        {
+          "imgUrl": "/img/parsons.jpg",
+          "name": "Chandler Parsons"
+        },
+        {
+          "imgUrl": "/img/faried.jpg",
+          "name": "Kenneth Faried"
+        },
+        {
+          "imgUrl": "/img/hayward.jpg",
+          "name": "Gordon Hayward"
+        },
+        {
+          "imgUrl": "/img/conley.jpg",
+          "name": "Mike Conley"
+        },
+        {
+          "imgUrl": "/img/howard.jpg",
+          "name": "Dwight Howard"
+        },
+        {
+          "imgUrl": "/img/placeholder.jpg",
+          "name": "Trey Burke"
+        }
+      ]
+    },
+    "Ads": {},
+    "Data capture": {},
+    "Look and feel": {}
+  }
+
+}

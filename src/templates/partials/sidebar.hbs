@@ -1,0 +1,67 @@
+<aside class="sidebar">
+	<header class="aside-header">
+		<div class="burger-menu">
+			<span class="stick-1"></span>
+			<span class="stick-2"></span>
+			<span class="stick-3"></span>
+		</div>
+		<a id="logo">
+			OMNIGON
+		</a>
+	</header>
+	<button class="button">New vote</button>
+
+	{{#with sidebar}}
+	<section class="section draft">
+		<header class="aside-title">
+			Draft
+		</header>
+		<div class="card-row highlight">
+			<div class="img-wrapper">
+			</div>
+			<p class="text">
+				New vote
+			</p>
+		</div>
+		<div class="card-row">
+			<div class="img-wrapper">
+				<img src={{ draft.imgUrl }} alt="">
+			</div>
+			<p class="text">
+				{{ draft.text }}
+			</p>
+		</div>
+	</section>
+	<section class="section active">
+		<header class="aside-title">
+			Active
+		</header>
+		{{#each active}}
+			<div class="card-row">
+				<div class="img-wrapper">
+					<img src={{imgUrl}} alt="">
+				</div>
+				<p class="text">
+					{{ text }}
+				</p>
+			</div>
+		{{/each}}
+	</section>
+	<section class="section close">
+		<header class="aside-title">
+			Close
+		</header>
+		{{#each close}}
+			<div class="card-row">
+				<div class="img-wrapper">
+					<img src={{imgUrl}} alt="">
+				</div>
+				<p class="text">
+					{{ text }}
+				</p>
+			</div>
+		{{/each}}
+
+	</section>
+	{{/with}}
+</aside>

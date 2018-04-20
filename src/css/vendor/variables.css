@@ -1,0 +1,6 @@
+:root {
+  --font-roboto: 'Roboto', sans-serif;
+  --font-sans: 'OpenSans', sans-serif;
+  --color-text: rgba(0, 0, 0, 0.87);
+  --color-text-light: rgba(0, 0, 0, 0.6);
+}

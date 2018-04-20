@@ -1,0 +1,49 @@
+<section class="tabs">
+	<nav class="tabs__header">
+		{{#each tabs}}
+		<a href="#" class="tabs__header-item {{this.active}}">
+			{{ @key }}
+		</a>
+		{{/each}}
+	</nav>
+{{#with tabs.Content}}
+
+	<section class="tabs__control">
+		<p class="tabs__control-text">
+			{{ controls }}
+		</p>
+		<div class="tabs__control-toggle">
+			<input type="checkbox" class="tabs__control-label" id="random" name="random" checked />
+			<label for="random" class="tabs__control-label"></label>
+		</div>
+	</section>
+	<section class="tabs__players">
+
+		<aside class="tabs__sidebar">
+			<label for="">
+				{{ embed }}
+			</label>
+		</aside>
+		
+		<main class="tabs__main">
+			
+		{{#each players}}
+			<div class="player-card">
+				<figure class="player-card__picture">
+					<img class="player-card__img" src={{imgUrl}} alt="" />
+				</figure>
+				<div class="player-card__caption">
+					{{ name }}
+				</div>
+			</div>
+		{{/each}}
+		{{#times 12}}
+      <a href="#" class="player-card">
+				<figure class="player-card__picture">
+				</figure>
+			</a>
+    {{/times}}
+		</main>
+{{/with}}
+	</section>
+</section>

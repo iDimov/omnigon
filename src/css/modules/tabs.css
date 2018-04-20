@@ -1,0 +1,94 @@
+.tabs {
+  max-width: 952px;
+	height: 100%;
+	border-radius: 8px;
+	background-color: rgba(255, 255, 255, 0.9);
+  box-shadow: 0 32px 64px 0 rgba(0, 0, 0, 0.05);
+  
+  &__header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    height: 48px;
+    align-items: center;
+
+    &-item {
+      width: 25%;
+      font-size: 14px;
+      line-height: 3.43;
+      text-align: center;
+      color: rgba(0, 0, 0, 0.9);
+      text-decoration: none;
+
+      &.active {
+        border-bottom: 2px solid #303030;
+        font-weight: bold;
+      }
+    }
+  }
+
+  &__control {
+    height: 80px;
+    padding-left: 48px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+
+    &-text {
+      padding-right: 32px;
+      font-size: 14px;
+      line-height: 1.71;
+      color: rgba(0, 0, 0, 0.9);
+      position: relative;
+    }
+  }
+
+  &__players {
+    padding: 32px 0 0 48px;
+    display: flex;
+    width: 100%;
+  }
+
+  &__sidebar {
+    width: 170px;
+    margin-right: 14px;
+    flex: none;
+
+    label {
+      font-size: 14px;
+      line-height: 1.71;
+      color: #26bf8c;
+      position: relative;
+
+      &:before {
+        content: url(../img/check.svg);
+        width: 20px;
+        height: 20px;
+        position: absolute;
+        left: -30px;
+        top: -5px;
+      }
+    }
+  }
+
+  &__main {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+  }
+
+}
+
+
+@media screen and (max-width: 1396px) {
+  .tabs {
+    width: 40em;
+  }
+
+}
+@media screen and (max-width: 1156px) {
+  .tabs {
+    width: 772px;
+  }
+}

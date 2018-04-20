@@ -1,0 +1,36 @@
+{
+  "name": "omnigon",
+  "version": "1.0.0",
+  "description": "",
+  "author": "idimov.com",
+  "scripts": {
+    "start": "gulp"
+  },
+  "devDependencies": {
+    "babel-core": "latest",
+    "babel-preset-es2015": "latest",
+    "browser-sync": "latest",
+    "cssnano": "^3.10.0",
+    "gulp": "latest",
+    "gulp-babel": "^7.0.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-declare": "^0.3.0",
+    "gulp-handlebars": "^5.0.2",
+    "gulp-imagemin": "^4.1.0",
+    "gulp-postcss": "latest",
+    "gulp-rename": "^1.2.2",
+    "gulp-watch": "latest",
+    "gulp-wrap": "^0.13.0",
+    "postcss-cssnext": "latest",
+    "postcss-inline-svg": "latest",
+    "postcss-normalize": "^4.0.0",
+    "postcss-partial-import": "latest"
+  },
+  "dependencies": {
+    "gulp-file-include": "latest",
+    "postcss-nested": "^2.0.4",
+    "handlebars": "~4.0",
+    "through2": "~2.0",
+    "postcss-svgo": "latest"
+  }
+}

@@ -1,0 +1,19 @@
+body {
+  background-color: white;
+  font-family: var(--font-roboto);
+  font-size: 14px;
+}
+* {
+  box-sizing: border-box;
+}
+.wrapper {
+  max-width: 100%;
+  display: flex;
+}
+
+.main {
+  background-image: linear-gradient(48deg, #eeeeee, #fafafa);
+  width: 100%;
+  min-height: 100vh;
+  padding: 32px 32px 64px;
+}

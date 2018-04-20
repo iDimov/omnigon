@@ -1,0 +1,47 @@
+.player-card {
+  width: 164px;
+  height: auto;
+  margin: 0 16px 28px 0;
+
+  
+  &__picture {
+    width: 164px;
+    height: 164px;
+    background-color: rgba(0, 0, 0, 0.05);
+    border-radius: 100px;
+    margin: 0;
+    position: relative;
+    box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.4);
+    transition: all .3s ease;
+    cursor: pointer;
+    
+    &:hover {
+      background-color: rgba(0, 0, 0, 0.1);
+    }
+
+    &:before {
+      content: '+';
+      cursor: pointer;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      z-index: 0;
+
+    }
+  }
+  
+  &__img {
+    border-radius: 100px;
+    display: block;
+    position: relative;
+    z-index: 1;
+  }
+
+  &__caption {
+    font-size: 14px;
+    margin-top: 4px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.9);
+  }
+}
